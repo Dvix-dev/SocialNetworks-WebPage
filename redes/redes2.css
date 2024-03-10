@@ -1,0 +1,106 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    background-image: url(https://i.imgur.com/RVKgqsc.jpg);
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    color:#ffffff
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+h1 {
+    font-family: 'Kanit', sans-serif;
+}
+
+.mainbox {
+    width: 600px;
+    padding: 2rem;
+    border-radius: 15px;
+    background-color: rgba(235, 235, 235, 0.884);
+    margin: auto;
+    margin-top: 5rem;
+    background-color: rgba(22, 22, 22, 0.884);
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 3px;
+    background-image: url(https://i.imgur.com/eohXevU.png);
+    background-size: cover;
+    background-position: center;
+    max-width: calc(100% - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div.title {
+    font-size: 300%;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+p#title {
+    margin-top: -21 
+}
+
+div.subtitle {
+    font-size: large;
+    color: #ffffff;
+    margin-bottom: 22px;
+}
+
+.minibox {
+    border: 1px solid;
+    border-radius: 15px;
+    background-color: rgba(19, 19, 19, 0.884);
+    color: aliceblue;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.2s;
+}
+
+.minibox:hover {
+    background-color: black;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.iconito {
+    width: 35px;
+    margin: 12px;
+}
+
+.socialnick {
+    display: flex;
+    align-items: center;
+}
+
+.socialnickname {
+    font-size: 130%;
+}
+
+.palomita {
+    height: 18px;
+    margin-left: 4px;
+}
+
+p {
+    margin-bottom: 0;
+}
